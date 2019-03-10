@@ -27,7 +27,7 @@ public class SpringBootWebApplication extends SpringBootServletInitializer {
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
 		return application.sources(SpringBootWebApplication.class);
 	}
-	public static vo5id main(String[] args) throws Exception {
+	public static vo766id main(String[] args) throws Exception {
 		SpringApplication.run(SpringBootWebApplication.class, args);
 	}
 }
