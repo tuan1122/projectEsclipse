@@ -9,5 +9,6 @@ public interface IPersonDao {
     void createPerson(person person);
     void updatePerson(person person);
     void deletePerson(String personId);
+    void deletePerson(String personId);
    // boolean articleExists(String title, String category);
 }
